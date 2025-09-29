@@ -7,7 +7,6 @@
     min-width: 320px;
  } 
  header{
-    width: 100vw; 
     height: 10vh; 
     background-color: black;
     padding: 4%;
@@ -119,5 +118,6 @@ footer{
    }
 
 }
+
 
 
