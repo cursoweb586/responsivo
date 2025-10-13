@@ -5,6 +5,8 @@
     text-align: center;
     font-size: 1,5em;
     min-width: 320px;
+  *{ margin: 0;
+     border: 0}
  } 
  header{
     height: 10vh; 
@@ -101,3 +103,4 @@ main{
 footer{
    padding: 20% 40%;
 }
+
