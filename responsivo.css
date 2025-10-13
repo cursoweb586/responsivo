@@ -61,7 +61,8 @@
     } 
     
      /*celular*/
-@media (max-width:678px) {
+@media (max-width:678px) 
+{margin: 0;}{
    nav{
 flex-direction: column;
 flex-wrap: wrap;
@@ -118,6 +119,7 @@ footer{
    }
 
 }
+
 
 
 
