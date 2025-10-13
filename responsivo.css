@@ -101,25 +101,3 @@ main{
 footer{
    padding: 20% 40%;
 }
-}
-/*celular*/
-@media (max-width: 767px){
-   body{
-      font-size: 14px;
-      line-height: 1.4;
-      padding: 0.5rem;
-   }
-   h1{font-size: 1.5rem;}
-   nav{
-        flex-direction: row-reverse;
-        flex-direction: li;
-   }
-   bottom{
-      width: 4px;
-   }
-
-}
-
-
-
-
