@@ -33,13 +33,13 @@ button:hover{
     border-radius: 30px;
     border: 7px solid cyan;
     box-shadow: 0 0 40px cyan;
-    background-image: linear-gradient(rgb(158, 158, 158), rgb(223, 223, 223));
+    background-image: rgb(223, 223, 223);
 }
 main{
     display: flex;
     width: 100vw;
     height: auto;
-    background-image: linear-gradient(rgb(240, 229, 214),rgb(240, 229, 214),rgb(240, 229, 214),rgb(161, 144, 117));
+    background-image: linear-gradient(rgb(240, 229, 214);
     justify-content: center;
     align-items: center;
     /* gap: 1.5%; */
@@ -49,7 +49,7 @@ section{
     flex-direction: column;
     width: 33%;
     height: auto;
-    background-image: linear-gradient(rgb(187, 204, 219),aliceblue,aliceblue, aliceblue, aliceblue);
+    background-image: (rgb(187, 204, 219),aliceblue,aliceblue, aliceblue, aliceblue);
     margin: 10px;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@ footer{
     display: flex;
     width: 100vw;
     height: 10vh;
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(48, 48, 48));
+    background-image: (rgb(0, 0, 0), rgb(48, 48, 48));
     align-items: center;
     justify-content: center;
     padding: 3.5%;
@@ -82,7 +82,7 @@ footer{
 @media(min-width: 679px) and (max-width: 1023px)
 {
     header{
-        background-image: linear-gradient(black, rgb(172, 0, 72), rgb(59, 0, 0));
+        background-image: (black, rgb(172, 0, 72), rgb(59, 0, 0));
         height: auto;
     }
     nav{
@@ -113,7 +113,7 @@ footer{
 /*Tela de celular*/
 @media(max-width: 678px){
     header{
-        background-image: linear-gradient(black, rgb(0, 70, 6), rgb(29, 6, 0));
+        background-image: (black, rgb(0, 70, 6), rgb(29, 6, 0));
         height: 40vh; 
     }
     nav{
@@ -142,6 +142,7 @@ footer{
     }
 
 }
+
 
 
 
