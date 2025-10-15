@@ -18,28 +18,16 @@ nav{
     column-gap: 20px;
 }
 button{
-    width: 200px;
-    height: 60px;
-    margin: 0px;
-    border: 7px solid rgb(47, 130, 255);
-    border-radius: 15px;
-    background-image: linear-gradient(rgb(71, 71, 71), gray);
-    color: white;
-    font-size: 17px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blak;
 }
 button:hover{
-    cursor: pointer;
-    border-radius: 30px;
-    border: 7px solid cyan;
-    box-shadow: 0 0 40px cyan;
+    border: 7px ;
     background-image: rgb(223, 223, 223);
 }
 main{
     display: flex;
     width: 100vw;
     height: auto;
-    background-image: linear-gradient(rgb(240, 229, 214);
     justify-content: center;
     align-items: center;
     /* gap: 1.5%; */
@@ -102,18 +90,16 @@ footer{
         margin: 7px;
     }
     button{
-        margin: 15px;
-        border-color: rgb(216, 0, 83);
+        background-color: blak; 
     }
     button:hover{
-        border-color: magenta;
-        box-shadow: 0 0 40px magenta;
+           background-color: blak;
     }
 }
 /*Tela de celular*/
 @media(max-width: 678px){
     header{
-        background-image: (black, rgb(0, 70, 6), rgb(29, 6, 0));
+        background-image: (black,);
         height: 40vh; 
     }
     nav{
@@ -134,14 +120,14 @@ footer{
         margin: 5px;
     }
     button{
-        border-color: rgb(115, 255, 0);
+          background-color: blak;
     }
     button:hover{
-        border-color: rgb(115, 255, 0);
-        box-shadow: 0 0 40px rgb(115, 255, 0);
+          background-color: blak;
     }
 
 }
+
 
 
 
