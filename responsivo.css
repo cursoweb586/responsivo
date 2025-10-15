@@ -5,8 +5,6 @@
     text-align: center;
     font-size: 1,5em;
     min-width: 320px;
-  *{ margin: 0;
-     border: 0}
  } 
  header{
     height: 10vh; 
@@ -99,8 +97,10 @@ padding: 5% 4%;
 main{
    flex-direction: colum;
    flex-wrap: wrap;
+   width:100%;
 }
 footer{
    padding: 20% 40%;
 }
+
 
