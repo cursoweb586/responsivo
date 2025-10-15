@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    background-image: black;
-    width: 100vw;
-    height: 15vh;
+   
 }
 nav{
     display: flex;
@@ -127,6 +125,7 @@ footer{
     }
 
 }
+
 
 
 
