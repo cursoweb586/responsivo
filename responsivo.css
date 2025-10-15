@@ -1,106 +1,147 @@
-*{ margin: 0;
- border: 0}
- body{ 
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    font-size: 1,5em;
-    min-width: 320px;
- } 
- header{
-    height: 10vh; 
-    background-color: black;
-    padding: 4%;
-    }
-  nav{
-    width: 100%;
-    height: 80%; 
-    display: flex;
-    justify-content: center; 
-    text-align: left;
-    flex-direction: column; flex-wrap: wrap;
-    } 
-  button{
-    width: 60px; margin: 0 2px; border-radius: 10%; border: 0; background-color:whitesmoke;
-    padding: 15px;
- } 
- button:hover{
-    background-color: rgb(153, 152, 152);
-    cursor: pointer;
-    padding: 3% 3%;
- }
-  main{
+
+ *{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: linear-gradient( black,rgb(120, 0, 194), rgb(0, 19, 82));
     width: 100vw;
-   height: auto;
-    display: flex; 
-    background-color: rgb(83, 79, 79); 
+    height: 15vh;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; /*Já está configurado assim por padrão*/
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    column-gap: 20px;
+}
+button{
+    width: 200px;
+    height: 60px;
+    margin: 0px;
+    border: 7px solid rgb(47, 130, 255);
+    border-radius: 15px;
+    background-image: linear-gradient(rgb(71, 71, 71), gray);
+    color: white;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    border-radius: 30px;
+    border: 7px solid cyan;
+    box-shadow: 0 0 40px cyan;
+    background-image: linear-gradient(rgb(158, 158, 158), rgb(223, 223, 223));
+}
+main{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    background-image: linear-gradient(rgb(240, 229, 214),rgb(240, 229, 214),rgb(240, 229, 214),rgb(161, 144, 117));
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    flex-direction: row;
-    }
-   section{
-    background-color: rgb(255, 255, 255);
-    margin: 4px;
-    border-radius: 5px;
-    padding: 70px;
-    }
-    footer{ 
-        width: 100%;
-        height: 20%;
-        background-color: rgb(24, 22, 22);
-        padding: 4%;
-        align-items: flex-end;
-        } 
-    img{ 
-        width: 40%; 
-        height: 50%;
-     }
-     p{
-        text-align: left;
-        margin: 10px;
-    } 
-    
-     /*celular*/
-@media (max-width:678px) 
-{margin: 0;}{
-   nav{
-flex-direction: column;
-flex-wrap: wrap;
+    /* gap: 1.5%; */
 }
-button{
-   padding: 5% 5%;
+section{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: auto;
+    background-image: linear-gradient(rgb(187, 204, 219),aliceblue,aliceblue, aliceblue, aliceblue);
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
 }
-button:hover{
-padding: 5% 10%;
+img{
+    width: 100px;
+    margin: 10px;
+    border-radius: 13px;
 }
-main{
-   flex-direction: column;
-   flex-wrap: wrap;
+p{
+    text-align: left;
+    font-size: 25px;
+    margin: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 footer{
-   padding: 20% 40%;
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(48, 48, 48));
+    align-items: center;
+    justify-content: center;
+    padding: 3.5%;
 }
+.rodape{
+    color:antiquewhite;
 }
-/*tablet*/
-@media (max-width:1023px)
+/*Tela de tablet*/
+@media(min-width: 679px) and (max-width: 1023px)
 {
-   nav{
-flex-direction: column;
-flex-wrap: wrap;
+    header{
+        background-image: linear-gradient(black, rgb(172, 0, 72), rgb(59, 0, 0));
+        height: auto;
+    }
+    nav{
+        column-gap: 200px;
+        row-gap: 0;
+    }
+    main{
+        height: auto;
+        flex-direction: column;
+    }
+    section{
+        width: 99%;
+        margin: 7px;
+    }
+    img{
+        width: 80px;
+        margin: 7px;
+    }
+    button{
+        margin: 15px;
+        border-color: rgb(216, 0, 83);
+    }
+    button:hover{
+        border-color: magenta;
+        box-shadow: 0 0 40px magenta;
+    }
 }
-button{
-   padding: 5% 10%;
+/*Tela de celular*/
+@media(max-width: 678px){
+    header{
+        background-image: linear-gradient(black, rgb(0, 70, 6), rgb(29, 6, 0));
+        height: 40vh; 
+    }
+    nav{
+        flex-direction: column;
+        column-gap: 15px;
+        row-gap: 20px;
+    }
+    main{
+        flex-direction: column;
+        height: auto
+    }
+    section{
+        width: 99%;
+        margin: 8px;
+    }
+    img{
+        width: 70px;
+        margin: 5px;
+    }
+    button{
+        border-color: rgb(115, 255, 0);
+    }
+    button:hover{
+        border-color: rgb(115, 255, 0);
+        box-shadow: 0 0 40px rgb(115, 255, 0);
+    }
+
 }
-button:hover{
-padding: 5% 4%;
-}
-main{
-   flex-direction: colum;
-   flex-wrap: wrap;
-   width:100%;
-}
-footer{
-   padding: 20% 40%;
-}
+
 
 
