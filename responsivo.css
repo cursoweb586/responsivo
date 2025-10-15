@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    background-image: linear-gradient( black,rgb(120, 0, 194), rgb(0, 19, 82));
+    background-image: black;
     width: 100vw;
     height: 15vh;
 }
@@ -142,6 +142,7 @@ footer{
     }
 
 }
+
 
 
 
